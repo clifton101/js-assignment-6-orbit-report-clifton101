@@ -14,9 +14,10 @@ export class Satellite {
 		this.operational = operational;
    }
 	
-// 	isSpaceDebris(): boolean {
-// 		return true;
-//    }
+	isSpaceDebris(): boolean {
+		return true;
+   }
+
 	showWarning(): boolean {
 		return this.type.toLowerCase () === 'space debris';
 	}
@@ -25,6 +26,3 @@ export class Satellite {
 }
 
 // TODO 3a: fix isSpaceDebris check
-// shouldShowWarning() boolean {
-// 	return this.type.toLowerCase () === 'space debris';
-// }
